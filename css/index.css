@@ -1,3 +1,363 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+body {
+	margin: 40px 60px;
+}
+
+.header {
+	display: flex;
+	justify-content: center;
+}
+
+nav.header {
+	font-weight: bolder;
+	display: flex;
+	align-items: center;
+	padding-left: 22px;
+
+}
+
+.logo1 {
+	display: none;
+}
 
 
+.Titlelogoflex {
+	margin: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+h1 {
+	font-size: 65px;
+	display: flex;
+}
+
+.on {
+	margin-left: 50px;
+}
+
+a.button {
+	border: 1px solid gray;
+	color:black;
+	font-size: x-large;
+	padding: 0px 10px;
+	margin-left: 20px;
+}
+
+a.button:hover {
+	background-color: gray;
+	color: white; 
+}
+
+a {
+	color: lightgray;
+	text-decoration: none;
+	margin-right: 60px;
+}
+
+.topfeature {
+	display: flex;
+	margin: 25px 0px;
+}
+
+.features {
+	margin-right: 25px;
+}
+
+.img2
+{
+	width: 100%;
+}
+
+section.bottom {
+	display: flex;
+	justify-content: space-around;
+}
+
+.services {
+	margin: 25px 25px 0px 0px;
+}
+
+.product {
+	margin: 25px 25px 0px 0px;
+}
+
+.vision {
+	margin: 25px 25px 0px 0px;
+}
+
+.contact {
+	margin: 40px 0;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 40px;
+    margin: 40px 0;6
+} 
+
+.emptyspace2 {
+	padding: 0;
+}
+
+.emptyspace3 {
+	padding: 10px;
+}
+
+.emptyspace4 {
+	margin-top: 10px;
+}
+
+.last-line {
+	margin-top: 30px;
+}
+
+/* Services.html CSS starts here */
+.navtopservices {
+	border: 1px solid rgb(255, 0, 0);
+	font-weight: bolder;
+	display: flex;
+	align-items: center;
+	padding-left: 22px;
+}
+
+.ServiceHeader {
+	border: 1px solid red;
+	display: flex;
+	justify-content: stretch;
+}
+
+h2.Services {
+	font-size: x-large;
+	margin: 25px 0px;
+}
+
+hr.topline {
+	margin: 40px 0px;
+}
+
+.Digi {
+	display: flex;
+	border: 1px solid black;
+	background-color: #E8E8E8;
+}
+
+.DigiD {
+	Margin: 20px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+
+
+
+.LearnMore {
+	border: 1px solid black;
+
+}
+
+
+
+
+
+
+
+
+
+.bottomline {
+	margin: 40px 0px;
+}
+
+.some {
+	display: flex:
+}
+
+.some1 {
+	 
+}
+
+
+
+
+/* @media mobile/tablet CSS starts here */
+@media (max-width: 800px){
+	
+	nav.header {
+		display: flex;
+	}
+
+	.logo1 {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	.logo {
+		display: none;
+	}
+
+	.Titlelogoflex img {
+		display: none;
+	}
+}
+
+@media (max-width: 500px){
+
+	body {
+		margin: 20px
+	}
+
+	.logo1 {
+		padding-left: 50px;
+	}
+
+	nav.header, a {
+		flex-direction: column;
+	}
+
+	a[href^="services.html"]  {
+		border: 1px solid gray;
+		padding: 20px;
+		font-size: larger;
+		text-align: center;
+		width: 200%;
+		
+	}
+
+	a[href^="#"]  {
+		border-bottom: 1px solid gray;
+		padding: 20px;
+		font-size: larger;
+		text-align: center;
+		width: 200%;
+	}
+
+	.on {
+		padding-left: 30px;
+	}
+
+	h1 {
+		padding-left: 30px;
+	}
+
+	a.button {
+		margin-left: 55px;
+	}
+
+	.topfeature {
+		display: inline-block;
+	}
+
+	.features {
+		margin-bottom: 50px;
+	}
+
+	section.bottom {
+		display: inline-block;
+		
+	}
+}
